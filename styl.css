@@ -1,0 +1,67 @@
+html, body{
+    font-family: Helvetica;
+    background: #fff;
+    margin:0;
+    padding:0;
+  }
+
+  html {
+    height: 100%;
+  }
+
+  body {
+     min-height: 100%;
+    position:relative;
+  }
+.tytułowy {
+    background: #014325;
+    color: #fff;
+    height: 100px; 
+    float: left;
+    text-align: center;
+    width: 90%
+}
+.miniatury img {
+    display: block;
+    background:#014325;
+    height: 100px;
+    width: 10%;
+}
+.lewy {
+    background: #d2b48c ;
+    width: 100%;
+    height: 700px;
+    float: left;
+    text-align: left;
+}
+.prawy img {
+    float: right;
+    background: #d2b48c;
+    height: 200px;
+    width: 200px;
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #014325;
+    border-radius: 20px;
+    display: block;
+}
+.prawy img:hover {
+    float: right;
+    background: #d2b48c;
+    height: 200px;
+    width: 200px;
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #800000;
+    border-radius: 20px;
+    display: block;
+ }
+.stopka {
+    display: block;
+    background: #014325;
+    color: #fff;
+    height: 60px;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
